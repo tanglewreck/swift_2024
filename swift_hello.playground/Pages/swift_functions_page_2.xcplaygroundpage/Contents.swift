@@ -17,7 +17,7 @@ func greet(_ person: String) -> String {
 
 
 print(greeting(person: "Nisse"))
-print(greet("Sture"))
+print(greet("korv"))
 
 
 
