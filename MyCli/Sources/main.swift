@@ -10,5 +10,12 @@ struct FigletTool: ParsableCommand {
 
     public func run() throws{
         Figlet.say(self.input)
+        /* print("type something ")
+        let reply: String = readLine() ?? ""
+        if reply != "" {
+            print(reply)
+        } else {
+            print("no input")
+        }*/
     }
 }
