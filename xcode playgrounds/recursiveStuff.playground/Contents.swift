@@ -1,6 +1,11 @@
+/*:
+### Experiments with recursive functions
+*/
+
 import Cocoa
 
-/* func recurseThis(n: Int) -> Void {
+/*:
+func recurseThis(n: Int) -> Void {
 
     let m = n - 1
     if m == 0 {
@@ -44,7 +49,7 @@ print(fibish(N: 3))
 print(fibish(N: 9))
 print(fibish(N: fibish(N: 3)))
 */
-print(fibish(N: 21))
+print(fibish(N: 11))
 
 
 
